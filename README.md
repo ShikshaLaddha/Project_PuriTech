@@ -1,6 +1,6 @@
-# MadhavVend
+# PuriTech
 
-MadhavVend is a modern web platform powering a semi-automated pani-puri vending system, designed to deliver hygienic, fast, and authentic street food experiences.
+PuriTech is a modern web platform powering a semi-automated pani-puri vending system, designed to deliver hygienic, fast, and authentic street food experiences.
 
 ## Tech Stack
 - React
@@ -16,3 +16,4 @@ MadhavVend is a modern web platform powering a semi-automated pani-puri vending 
 ## Run Locally
 npm install  
 npm run dev
+
