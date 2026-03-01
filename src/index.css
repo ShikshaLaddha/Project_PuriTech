@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PuriTech Design System
+   Primary: Navy Blue for professionalism and trust
+   Accent: Green for freshness and hygiene
+   Background: Clean white for modernity
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    /* Navy Blue Primary */
+    --primary: 220 70% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Soft blue-gray secondary */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 220 25% 10%;
+
+    --muted: 210 15% 95%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Green accent for freshness */
+    --accent: 152 55% 92%;
+    --accent-foreground: 152 60% 30%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 220 70% 35%;
+
+    --radius: 0.5rem;
+
+    /* Trust/Hygiene green */
+    --success: 152 60% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --sidebar-background: 210 20% 98%;
+    --sidebar-foreground: 220 25% 15%;
+    --sidebar-primary: 220 70% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 152 40% 94%;
+    --sidebar-accent-foreground: 220 25% 10%;
+    --sidebar-border: 220 15% 90%;
+    --sidebar-ring: 220 70% 35%;
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 210 20% 95%;
+
+    --primary: 220 65% 50%;
+    --primary-foreground: 220 25% 8%;
+
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 210 20% 95%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 152 35% 20%;
+    --accent-foreground: 152 55% 70%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 20% 95%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 220 65% 50%;
+
+    --success: 152 50% 35%;
+    --success-foreground: 0 0% 100%;
+
+    --sidebar-background: 220 25% 10%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 220 65% 50%;
+    --sidebar-primary-foreground: 220 25% 8%;
+    --sidebar-accent: 152 30% 15%;
+    --sidebar-accent-foreground: 210 20% 95%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 220 65% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
